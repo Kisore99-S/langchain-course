@@ -327,6 +327,7 @@ dependencies = [
     { name = "isort" },
     { name = "langchain" },
     { name = "langchain-openai" },
+    { name = "langsmith" },
     { name = "python-dotenv" },
 ]
 
@@ -337,6 +338,7 @@ requires-dist = [
     { name = "isort", specifier = ">=8.0.1" },
     { name = "langchain", specifier = ">=1.2.15" },
     { name = "langchain-openai", specifier = ">=1.1.12" },
+    { name = "langsmith", specifier = ">=0.7.29" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
 ]
 
